@@ -11,5 +11,4 @@ To run the program, it is necessary to:
 4. Introduce the desired iterations.
 5. You need to close every generated plot in order to follow up with the iterations.
 
-The output of the modeling is a graphical representation of the channel location and a numerical result "Hoja1.csv" for each iteration. If you want to save the generated file, it is mandatory to copy it to a desired destination before close the plot window.
 You can save each generated plot by clicking the "save" icon present at the matplotlib UI.
