@@ -5,9 +5,11 @@ These wells intersect a series of sandy river channels. It is necessary to deter
 
 To run the program, it is necessary to:
 
-1. Have the latest version of Python 3 installed.
+1. Have the latest version of Python 3 installed in the system.
 2. Run the "dependencies.bat" file to install the necessary Python libraries.
-3. Run the "ChannelMod.ps1" file using PowerShell.
+3. Run the "ChannelModExec.bat" file.
+4. Introduce the desired iterations.
+5. You need to close every generated plot in order to follow up with the iterations.
 
-A terminal window will open and prompt for dependent variables needed for the modeling.
-The output of the modeling is a graphical representation of the channel location and a numerical result "Hoja1.csv".
+The output of the modeling is a graphical representation of the channel location and a numerical result "Hoja1.csv" for each iteration. If you want to save the generated file, it is mandatory to copy it to a desired destination before close the plot window.
+You can save each generated plot by clicking the "save" icon present at the matplotlib UI.
